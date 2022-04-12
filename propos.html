@@ -11,26 +11,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg  bg-dark bg-opacity-75 sticky-top">
-                    <div class="container">
-                      <a class="navbar-brand text-light" href="#">NiebePhone</a>
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                          <a class="nav-link active text-light" href="http://127.0.0.1:5500/niebe.html#">Acceuil</a>
-                          <a class="nav-link active text-light" href="http://127.0.0.1:5500/propos.html">A PROPOS</a>
-                          <a class="nav-link active text-light" href="http://127.0.0.1:5500/service.html">NOS SERVICES</a>
-                          <a class="nav-link active text-light" href="http://127.0.0.1:5500/blog.html">BLOG</a>
-                          <a class="nav-link active text-light" href="http://127.0.0.1:5500/contact.html">CONTACT</a>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark " id="barrenav">
+    <div class="container">
+        <a class="navbar-brand text-light" href="http://127.0.0.1:5500/index.html">NiebePhone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end Secondary link" id="navbarNavDropdown">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="http://127.0.0.1:5500/index.html">ACCEUIL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="propos.html">A propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="service.html">Nos Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary border-right" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
+</nav>
     <div class="container-fluid" style="background: url(https://images.pexels.com/photos/10366614/pexels-photo-10366614.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);">
         <div class="row justify-content-center">
             <div class="row">
@@ -60,89 +67,102 @@
             </div>
         </div>
     </div>
-    <div class="container my-5">
-            <div class="row ">
-                <div class="col">
-                    <div class="card mb-3" style="width: 15rem;">
-                        <div class="card-body bg-primary">
-                            <i class="bi bi-sim"></i>
-                          <h5 class="card-title text-light text-center">Lorem Ipsum</h5>
-                          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
-                          
-                        </div>
-                      </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-body bg-primary">
-                            
-                          <h5 class="card-title text-light text-center">SLorem Ipsum</h5>
-                          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
-                          
-                        </div>
-                      </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-body bg-primary">
-                            <i class="bi bi-chat-fill"></i>
-                          <h5 class="card-title text-light text-center">Lorem Ipsum</h5>
-                          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
-                          
-                        </div>
-                      </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-body bg-primary">
-                            <i class="bi bi-stopwatch"></i>
-                          <h5 class="card-title text-light text-center">Lorem Ipsum</h5>
-                          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
-                          
-                        </div>
-                      </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-body bg-primary">
-                            <span class="icon"><i class="bi bi-badge-cc link-light offset-5"></i></span>
-                          <h5 class="card-title text-light text-center">Lorem Ipsum</h5>
-                          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
-                          
-                        </div>
-                      </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-body bg-primary">
-                          <h5 class="card-title text-light text-center">Lorem Ipsum</h5>
-                          <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
-                          
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid bg-dark bg-opacity-75 my-5">
-            <div class="row justify-content-center">
-                <div class="row my-4 ">
-                  <div class="col">
-                    <h1 class="text-center text-light">Testimonials</h1>
-                    <p class="text-center text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
+    <section>
+      <div class="container">
+         <div class="row justfy-content-center py-5">
+           <div class="col-sm-12 col-lg-4">
+            <div class="card bg-primary text-white text-center">
+             <i class="bi bi-clipboard2-x fa-2x"></i>
+             <h5>lorem ipsum</h5>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, distinctio?</p>
             </div>
            </div>
-        </div>
-        <div class="container-fluid bg-dark">
-          <div class="row">
-            <div class="col my-5">
-              <p class="text-center text-light">Copyright2019@NiebePhone</p>
+ 
+             <div class="col-12 col-lg-4">
+               <div class="card bg-primary text-white text-center">
+               <i class="fa-solid fa-volume-low fa-2x"></i>
+               <h5>lorem ipsum</h5>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, distinctio?</p>
+               
+               </div>
+             </div>
+             
+             <div class="col-sm-12 col-lg-4">
+               <div class="card bg-primary text-white text-center">
+               <i class="fa-solid fa-comments fa-2x"></i>
+               <h5>lorem ipsum</h5>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, distinctio?</p>
+             </div>
+           </div>
+           <div class="row justfy-content-center py-5">
+               <div class="col-sm-12 col-lg-4">
+                 <div class="card bg-primary text-white text-center">
+                 <i class="fa-regular fa-clock fa-2x"></i>
+                 <h5>lorem ipsum</h5>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, distinctio?</p>
+               </div>
+               </div>
+                 <div class="col-12 col-lg-4">
+                   <div class="card bg-primary text-white text-center">
+                   <i class="fa-regular fa-closed-captioning fa-2x"></i>
+                   <h5>lorem ipsum</h5>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, distinctio?</p>
+                 </div>
+                 </div>
+                 
+                 <div class="col-sm-12 col-lg-4 ">
+                   <div class="card bg-primary text-white text-center">
+                   <i class="fa-solid fa-mug-saucer fa-2x"></i>
+                   <h5>lorem ipsum</h5>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, distinctio?</p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+         </div>
+ 
+    
+   </section>
+   <section class="container-fluid p-5 bg-dark">
+    <div class="row text-center">
+      <div class="col-12 text-light">
+        <h5>Testimonials</h5>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, voluptates.</p>
+            </div>
+            <div class="carousel-item">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aperiam!</p>
+            </div>
+            <div class="carousel-item active">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, quaerat?</p>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+
+      </div>
+
+    </div>
+    
    
+  </section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-6 text-center bg-dark py-5">
+        <p class="text-white">Copyright © Niebephone 2022 </p>
+    
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
